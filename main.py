@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from telegram.ext import Updater
-from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
+from telegram import Updater
+from telegram import Updater, MessageHandler, Filters, CommandHandler
 from telegram import ParseMode
 import codecs
 import logging, re, os, subprocess
